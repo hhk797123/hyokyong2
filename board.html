@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<title>board</title>
+	<style>
+		body {
+			margin: 0;
+			font-family: 'Pacifico', cursive;
+		}
+		.hero-header .helper {
+			  display: inline-block;
+			  height: 100%;
+			  vertical-align: middle;
+		}
+
+		.head{
+			width: 100%;
+		}
+
+		#navbar{
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			padding: 10px 20px;
+			z-index: 100;
+		}
+
+		.search{
+			height: 80px;
+			padding-top: 120px;
+			margin-left: 50%;
+			transform: translateX(-25%);
+		}
+		
+		.searchbox{
+			display: inline-block;
+			width: 50%;
+			height: 40px;
+			border: 2px solid black;
+			border-radius: 5px;
+		}
+
+		.search img{
+			display: inline-block;
+			border: 2px solid black;
+			border-radius: 5px;
+			height: 43px;
+			box-sizing: border-box;
+			padding: 2px;
+		}
+
+		.search img:hover{
+			background-color: #ffd400;
+		}
+
+		.search img:active {
+			color: #ffd400;
+			background-color: #EBFF82;
+			border-color: #ffd400;
+		}
+		
+		a{
+			text-decoration: none;
+		}
+
+		.menu{
+			font-size: 18px;
+			line-height: 21.09px;
+		}
+		.choreo{
+			margin-right: 10px;
+			color: lightgray;
+		}
+
+		.waaking{
+			margin-left: 10px;
+			margin-right: 10px;
+			color: lightgray;
+		}
+
+		.pole{
+			margin-left: 10px;
+			margin-right: 10px;
+			color: lightgray;
+		}
+
+		.waltz{
+			margin-left: 10px;
+			margin-right: 10px;
+			color: lightgray;
+		}
+
+		.ballet{
+			margin-left: 10px;
+			margin-right: 10px;
+			color: lightgray;
+		}
+		
+		.board{
+			margin-left: 10px;
+			color: #ffd440;
+		}
+		
+		.bodybody {
+			text-align: center;
+			display: inline-block;
+			width: 100%;
+			vertical-align: middle;
+		}
+
+		.bodybody p{
+			margin-top: 70px;
+			margin-bottom: 5px;
+			font-size: 18px;
+			color: black;
+		}
+		.main-content{
+            width: 560px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            height: 400px;
+        }
+
+        .main-content p{
+        	margin-bottom: 15px;
+        	font-size: 15px;
+
+        }
+
+        .item{
+            float: left;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #545454;
+            font-size: 10px;
+            margin-bottom: 50px;
+        }
+        .item img{
+            width: 160px;
+        }
+        .item div{
+            text-align: center;
+        }
+        .item .name{
+            margin-top: 20px;
+            margin-bottom: 4px;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .footer{
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .footer a{
+            margin: 0 10px;
+            text-decoration: none;}
+	</style>
+</head>
+<body>
+	<div class="hero-header">
+		<div class="head">
+			<div id="navbar">
+			    <a href="./index.html">
+					<img src="https://i.postimg.cc/g030qmrQ/logo.png" width="90px" alt="이미지">
+				</a>
+			</div>
+			<div class="search">
+				<div class="searchbox"></div>
+				<img  src="https://i.postimg.cc/Zq66WGqZ/clues-150586-1280.png" width="30px" alt="search">
+			</div>
+		</div>
+		<div class="helper"></div><div class="bodybody">
+			<div class="menu">
+				<a class="choreo" href="./choreo.html">CHOREO</a>
+				<a class="waaking" href="./waaking.html">WAAKING</a>
+				<a class="pole" href="./pole.html">POLE</a>
+				<a class="waltz" href="./waltz.html">WALTZ</a>
+				<a class="ballet" href="./ballet.html">BALLET</a>
+				<a class="board" href="./board.html">||&nbsp;&nbsp;&nbsp;&nbsp;BOARD</a>
+			</div>
+				
+			<p>If you love dance, there is information for you.</p>
+
+			<div class="main-content">
+			 	<p>[UPCOMING & ON AIR] CONCERT, TV SHOW, etc.</p>
+		        <a href="#" class="item">
+		            <img src="https://i.postimg.cc/nzSmMXCQ/board-01.gif" alt="item-image">
+		            <div class="name">concert<br>[REUNION : THE NEXT ERA] </div>
+		            <div class="date">2022.07.09~10</div>
+		        </a>
+		        <a href="#" class="item">
+		            <img src="https://i.postimg.cc/3x3RG2z0/board-02.gif" alt="item-image">
+		            <div class="name">tv show<br>[STREET MAN FIGHTER]</div>
+		            <div class="date">2022.??.??</div>
+		        </a>
+		        <a href="#" class="item">
+		            <img src="https://i.postimg.cc/Yqq7BK1k/board-03.png" alt="item-image">
+		            <div class="name">tv show<br>[BE MBITIOUS] </div>
+		            <div class="date">2022.05~</div>
+		        </a>
+		    </div>
+		    <div class="main-content">
+		    	<p>TOP 3 DANCE CONTENTS</p>
+		        <a href="#" class="item">
+		            <img src="https://i.postimg.cc/TPJgvRmB/board-05.jpg" alt="item-image">
+		            <div class="name">tv show<br>[DANCING9]</div>
+		            <div class="date">2013</div>
+		        </a>
+		        <a href="#" class="item">
+		            <img src="https://i.postimg.cc/HndYMyLk/board-06.jpg" alt="item-image">
+		            <div class="name">movie<br>[DANCER]</div>
+		            <div class="date">2017</div>
+		        </a>
+		        <a href="#" class="item">
+		            <img src="https://i.postimg.cc/DymVMgRK/board-04.jpg" alt="item-image">
+		            <div class="name">movie<br>[STEP UP]</div>
+		            <div class="date">2006</div>
+		        </a>
+		    </div>
+		    <div class="main-content">
+		    	<p>CONTENTS RELATED TO THE DANCERS</p>
+		    	<a href="#" class="item">
+		            <img src="https://i.postimg.cc/wvWTYBVf/board-07.jpg" alt="item-image">
+		            <div class="name" style="font-family: Noto Sans KR;">전지적참견시점_가비출연</div>
+		            <div class="date">2022.01.22</div>
+		        </a>
+		        <a href="#" class="item">
+		            <img src="https://i.postimg.cc/yNy09F1D/board-08.jpg" alt="item-image">
+		            <div class="name" style="font-family: Noto Sans KR;">조립식가족_모니카립제이출연</div>
+		            <div class="date">2022</div>
+		        </a>
+		        <a href="#" class="item">
+		            <img src="https://i.postimg.cc/2SmJnNhT/board-09.jpg" alt="item-image">
+		            <div class="name" style="font-family: Noto Sans KR;">나혼자산다_허니제이출연</div>
+		            <div class="date">2022.03.11</div>
+		        </a>
+		    </div>
+		        <div class="clearfix"></div>
+		</div>
+		<div class="footer">
+      		<a href="#"><img src="https://i.postimg.cc/SQ1Q4yrF/facebook.png" alt="facebook-logo" height="15"></a>
+		    <a href="#"><img src="https://i.postimg.cc/WpdzhFtb/instagram.png" alt="instagram-logo" height="15"></a>
+		    <a href="#"><img src="https://i.postimg.cc/WzZsSZJG/twitter.png" alt="twitter-logo" height="15"></a>
+		</div>
+	</div>
+
+</body>
+</html>
